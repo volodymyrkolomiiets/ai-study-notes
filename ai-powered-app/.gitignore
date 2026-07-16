@@ -1,0 +1,7 @@
+Untitled.ipynb
+.venv
+.venv/
+.venv-dev/
+__pycache__/
+*.log
+*.sqlite3

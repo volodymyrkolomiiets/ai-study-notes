@@ -1,5 +1,6 @@
 TEMPERATURE = 0.7
-BASE_URL = "http://localhost:11434"
+# BASE_URL = "http://localhost:11434"
+BASE_URL = "http://host.docker.internal:11434"
 NUM_CTX = 4096
 NUM_PREDICT = 256
 

@@ -15,10 +15,10 @@ from config import (
 def initialize_model(model_id):
     return ChatOllama(
         model=model_id,
-        url=BASE_URL,
+        base_url=BASE_URL,
         temperature=TEMPERATURE,
         num_ctx=NUM_CTX,
-        nub_predict=NUM_PREDICT,
+        nu_predict=NUM_PREDICT,
     )
 
 
